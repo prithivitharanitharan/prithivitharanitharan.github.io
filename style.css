@@ -1,8 +1,8 @@
 body {
-    font-family: "Palatino", "MathPazo";
+    font-family: "MathPazo";
     line-height: 1.7;
     color: #FAFAFA; 
-    background-color: #1A1A1D;
+    background-color: #252525;
     max-width: 850px;
     margin: 60px auto;
     padding: 0 30px;
@@ -28,8 +28,8 @@ a:hover {
 }
 
 pre, code {
-    font-family: "Courier New", monospace;
-    background-color: #1A1A1D;
+    font-family: "MathPazo";
+    background-color: #252525;
     color: #FAFAFA;
     padding: 5px;
     border-radius: 4px;
