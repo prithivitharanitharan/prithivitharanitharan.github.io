@@ -1,54 +1,39 @@
-/* Professional Dark Academic Theme */
 body {
-    font-family: "Palatino", "Palatino Linotype", "Palatino LT STD", "Book Antiqua", "MathPazo", Georgia, serif;
+    font-family: "Palatino", "MathPazo";
     line-height: 1.7;
-    color: #e0e0e0; /* Off-white text for readability */
-    background-color: #121212; /* Deep charcoal background */
+    color: #FAFAFA; 
+    background-color: #1A1A1D;
     max-width: 850px;
     margin: 60px auto;
     padding: 0 30px;
 }
 
-/* Headers with a subtle gold or silver accent look great in dark mode */
-h1, h2, h3 {
-    color: #ffffff;
+h1, h2, h3  .centeredtext {
+    color: #FAFAFA;
     border-bottom: 1px solid #333;
     padding-bottom: 8px;
     margin-top: 50px;
     font-weight: normal;
-}
-
-/* Professional links */
+    text-align: center;
+    
 a {
-    color: #8ab4f8; /* Soft blue that pops on dark backgrounds */
+    color: #0000FF;
     text-decoration: none;
     transition: color 0.2s;
 }
 
 a:hover {
-    color: #aecbfa;
-    text-decoration: underline;
+    color: #0000FF;
+    text-decoration: none;
 }
 
-/* Formatting for LaTeX-style quotes or abstracts */
-blockquote {
-    border-left: 3px solid #444;
-    margin: 20px 0;
-    padding-left: 20px;
-    font-style: italic;
-    color: #bbb;
-}
-
-/* Code blocks for your algorithms/scripts */
 pre, code {
     font-family: "Courier New", monospace;
-    background-color: #1e1e1e;
-    color: #dcdcdc;
+    background-color: #1A1A1D;
+    color: #FAFAFA;
     padding: 5px;
     border-radius: 4px;
 }
-
-/* Ensures MathJax formulas stand out */
 .MathJax {
-    color: #ffffff !important;
+    color: #FAFAFA !important;
 }
