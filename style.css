@@ -1,33 +1,33 @@
 body {
-    font-size: 1.1rem;
+    font-size: 1.2rem;
     font-family: "MathPazo", "Palatino Linotype", "Palatino", Palatino;
-    line-height: 1.7;
+    line-height: 1.8;
     color: #000000; 
     background-color: #ffffff;
     max-width: 800px;
     margin: 0;
-    padding: 40px 50px;
+    padding: 60px 80px;
     text-align: left;
-    line-height: 1.8;
 }
 
 h1,h2,h3 {
     font-size: 2.4rem; 
-    margin-bottom: 20px;
+    margin-bottom: 0.5rem;
     color: #000000;
     margin-top: 40px;
-    padding-bottom: 5px;
+    padding-bottom: 10px;
+    padding: 60px 80px;
+    text-align:left;
 }
   
 p{
-   font-size: 1.1rem;
+    font-size: 1.2rem;
     font-family: "MathPazo", "Palatino Linotype", "Palatino", Palatino;
-    line-height: 1.7;
     color: #000000; 
     background-color: #ffffff;
     max-width: 800px;
     margin: 0;
-    padding: 40px 50px;
+    padding: 60px 80px;
     text-align: left;
     line-height: 1.8;
 }
@@ -44,4 +44,11 @@ a:hover {
 
 .MathJax {
     color: #000000 !important;
+}
+
+footer {
+    text-align: center;
+    margin-top: 60px;
+    font-size: 1.8rem;
+    color: #000000;
 }
